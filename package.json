@@ -1,0 +1,36 @@
+{
+  "name": "keyboard-shortcuts-lite",
+  "version": "1.0.0",
+  "description": "Blazing fast keyboard shortcut library with Bun",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "bun run build.ts",
+    "test": "bun test",
+    "dev": "bun --watch test/manager.test.ts",
+    "prepublishOnly": "bun run build"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.3.5"
+  },
+  "files": ["dist"],
+  "keywords": ["keyboard", "shortcuts", "accessibility", "bun", "typescript"],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/keyboard-shortcuts-lite.git"
+  },
+  "private": true,
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
