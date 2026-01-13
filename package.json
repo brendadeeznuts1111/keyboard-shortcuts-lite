@@ -27,9 +27,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/keyboard-shortcuts-lite.git"
+    "url": "https://github.com/brendadeeznuts1111/keyboard-shortcuts-lite.git"
   },
-  "private": true,
+  "publishConfig": {
+    "access": "public"
+  },
   "peerDependencies": {
     "typescript": "^5"
   }
