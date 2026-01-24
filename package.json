@@ -1,6 +1,9 @@
 {
   "name": "keyboard-shortcuts-lite",
   "version": "1.0.0",
+  "engines": {
+    "bun": ">=1.0.0"
+  },
   "description": "Blazing fast keyboard shortcut library with Bun",
   "type": "module",
   "main": "./dist/index.js",
